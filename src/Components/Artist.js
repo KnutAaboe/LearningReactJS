@@ -10,7 +10,6 @@ class Artist extends Component{
         this.state = {
             buttonText: "Click to change to artist's name",
         }
-        // this.changeText = this.changeText.bind(this);
     }
     
     
