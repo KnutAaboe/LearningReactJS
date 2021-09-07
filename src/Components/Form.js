@@ -23,8 +23,7 @@ class Form extends Component {
         })
     }
 
-    handleSubmit = event => {
-
+    handleSubmit = (event) => {
         this.setState({
             names: this.state.names + this.state.name + " is a " + this.state.opinion
         })

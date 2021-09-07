@@ -1,1 +1,16 @@
-Test out and start learning about JSX, props, state and event binding. 
+Test out and start learning about 
+- JSX, 
+- Props & State, 
+- List & Keys, 
+- Form Handling, 
+- Lifecycle methods, 
+- Pure Components & memo, 
+- Refs, 
+- Portals, 
+- Higher Order Components 
+
+TODO
+- Render Props
+- Context
+- HTTP 
+- Move on to hooks
