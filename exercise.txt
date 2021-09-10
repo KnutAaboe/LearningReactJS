@@ -8,9 +8,9 @@ Test out and start learning about
 - Refs, 
 - Portals, 
 - Higher Order Components 
+- Render Props
 
 TODO
-- Render Props
 - Context
 - HTTP 
 - Move on to hooks

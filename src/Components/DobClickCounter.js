@@ -1,15 +1,18 @@
 import React, {Component} from "react";
-import withCounter from "./withCounter";
+// import withCounter from "./withCounter";
 
 class DobClickCounter extends Component {
 
     render() {
         const { count, incCount } = this.props
         return (
-            <h1 onDoubleClick={incCount} >{this.props.name} click me is clicked {count} times</h1>
+            <h1 onDoubleClick={incCount} > Dobbel click me is clicked {count} times</h1>
         )
     }
 
 }
 
-export default withCounter(DobClickCounter, 4)
+export default DobClickCounter
+
+//Higher Components
+//withCounter(DobClickCounter, 2)

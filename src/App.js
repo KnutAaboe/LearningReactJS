@@ -8,6 +8,8 @@ import InputParent from "./Components/InputParent"
 import ClickCounter from './Components/ClickCounter';
 import DobClickCounter from './Components/DobClickCounter';
 import CarList from './Components/CarList';
+import WithCounter from './Components/WithCounter';
+import ChangeName from './Components2/ChangeName';
 
 function App() {
   return (
@@ -21,9 +23,31 @@ function App() {
     {/* <InputParent /> */}
     {/* <ClickCounter name="once"/>
     <DobClickCounter name="Dobbel"/> */}
-    <CarList />
+    {/* <CarList /> */}
+    {/* <WithCounter>
+    {(count, incCount) => (
+        <ClickCounter count={count} incCount={incCount}/>
+      )}
+    </WithCounter>
+    <WithCounter>
+    {(count, incCount) => (
+        <DobClickCounter count={count} incCount={incCount}/>
+      )}
+    </WithCounter> */}
+    <ChangeName />
     </div>
   );
 }
 
 export default App;
+
+{/* <withCounter>
+      {(count, incCount) => (
+        <ClickCounter count={count} incCount={incCount}/>
+      )}
+    <withCounter />
+    <withCounter>
+      {(count, incCount) => (
+        <DobClickCounter count={count} incCount={incCount}/>
+      )}
+    <withCounter /> */}
