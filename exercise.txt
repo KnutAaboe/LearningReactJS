@@ -1,4 +1,5 @@
-Test out and start learning about 
+Class components
+Test out and start learning about (Done)
 - JSX, 
 - Props & State, 
 - List & Keys, 
@@ -10,7 +11,28 @@ Test out and start learning about
 - Higher Order Components 
 - Render Props
 
-TODO
-- Context
-- HTTP 
-- Move on to hooks
+Funcitonal components w/ hooks
+Test out and start learning about (Done for now | somethings done in code case, soon to be public)
+- useState (done)
+    - Oject
+    - Array
+- useEffect (have value/s in brackets)
+    - After Render - [value]
+    - Only once - []
+    - ...
+- useContext (w/ reducer)
+- useReducer (together, w/ context & simple API) 
+- useCallbacks / useMemo (with context?) - understand concept, try out later.
+- useRef - understand concept, try out later.
+
+Others:
+Route/Link/Switch (Done for now)
+Typescript (Look at and try out)
+
+
+
+Så => 
+
+- Typescript
+- raskt .NET rep 
+- fullstack prosjekt youtube, example or something

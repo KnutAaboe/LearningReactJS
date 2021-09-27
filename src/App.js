@@ -10,6 +10,7 @@ import DobClickCounter from './Components/DobClickCounter';
 import CarList from './Components/CarList';
 import WithCounter from './Components/WithCounter';
 import ChangeName from './Components2/ChangeName';
+import FetchParent from './Components2/FetchParent';
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
         <DobClickCounter count={count} incCount={incCount}/>
       )}
     </WithCounter> */}
-    <ChangeName />
+    {/* <ChangeName /> */}
+    <FetchParent />
     </div>
   );
 }

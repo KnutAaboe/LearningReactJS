@@ -4,7 +4,7 @@ function ChangeName() {
     const initialState = {firstname:"Frank", lastname:"Olson", age:"23"}
     const [name, setName] = useState(initialState)
 
-    const handleSubmit = (event) => {
+    const handleSubmit = () => {
         setName([...name, {
             id: name.length
         }])
@@ -31,8 +31,4 @@ export default ChangeName
 
 
 
-
-
-
-            {/* <textarea value={name.firstname + " " + name.lastname + " " + name.age}/> */}
 
